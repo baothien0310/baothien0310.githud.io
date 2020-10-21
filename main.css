@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+header {
+    height: 140px;
+}
+header h1{
+    background:url("img/coffee-beans.jpg") no-repeat; 
+    background-size:cover;
+    color:white; 
+    opacity:80%;
+    padding:30px;
+}
+header nav{
+    background-color:brown;
+    height: 40px;
+    text-align:center;
+}
+header nav li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding:50px;
+}
+li {
+    display:inline;
+}
+ul{
+    padding:10px;
+}
+h1 {
+    padding:20px 0;
+    color:brown;
+}
+aside{
+    float: right;
+    width:30%;
+    text-align:center;
+    background-color:#E9D0A6;
+    font-weight:bold;
+}
+aside p{
+    padding:30px;
+}
+.lycaphe{
+    float:left;
+    width:68%;
+    padding-bottom:30px;
+}
+.lycaphe img{
+    float:left;
+    margin-right:15px;
+}
+footer nav li a{
+    text-decoration:none;
+    color:grey;
+    font-weight:bold;
+    padding:50px;
+}
